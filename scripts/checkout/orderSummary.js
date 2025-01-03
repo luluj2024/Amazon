@@ -29,8 +29,6 @@ export function renderOrderSummary(){
         }
       });
 
-      console.log(deliveryOption)
-
       const today = dayjs();
       const deliveryDate = today.add(deliveryOption.deliveryDays, 'days');
       const dateString = deliveryDate.format('dddd, MMMM D');
