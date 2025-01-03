@@ -67,6 +67,7 @@ export function renderOrderSummary(){
       `;
   });
 
+
   function deliveryOptionsHTML(productId, cartItem){
     let html = '';
 
@@ -103,6 +104,7 @@ export function renderOrderSummary(){
 
     return html;
   }
+
 
   document.querySelector('.js-order-summary').innerHTML = cartHTML;
 
